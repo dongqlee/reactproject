@@ -1,0 +1,231 @@
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+img {display: block; width: 100%;}
+a {color: black; text-decoration: none;}
+.me-auto {
+  margin: 0 auto;
+}
+.me-auto .nav {
+  margin: 0 10px;
+  color: #999;
+  transition: all 0.3s;
+}
+.me-auto .nav:hover {
+  color: black;
+}
+.flight_title {
+  font-size: 24px;
+  float: left;
+}
+.btn_box {
+  float: right;
+  position: relative;
+}
+.btn_box span {
+  width: 40px; height: 40px;
+  border-radius: 20px;
+  background-color: #ccc;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px;
+}
+.btn_box span:hover {
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+.btn_box span:active {
+  box-shadow: none;
+}
+.flight_box {
+  width: 100%;
+  overflow-y: hidden;
+  margin: 40px 0;
+}
+.flight_box .flight_slide {
+  width: 336%; height: 500px;
+  display: flex;
+}
+.flight_box .flight_slide .pro {
+  width: 33%;
+  margin-right: 10px;
+}
+.flight_box .flight_slide .pro a:hover {
+  color: black;
+}
+.flight_box .flight_slide .pro:last-child {
+  margin-right: 0px;
+}
+.flight_box .flight_slide .pro .txt_box {
+  width: 100%; 
+  position: relative;
+}
+.flight_box .flight_slide .pro .txt_box li.title {
+  position: absolute; 
+  top: 12px; left: 8px;
+}
+.flight_box .flight_slide .pro .txt_box li.discount {
+  position: absolute;
+  top: 12px; right: 90px;
+}
+.flight_box .flight_slide .pro .txt_box li.price {
+  position: absolute; 
+  top: 12px; right: 0;
+}
+.flight_box .flight_slide .pro .txt_box li.delete {
+  position: absolute; 
+  top: 12px; right: 8px;
+  text-decoration: line-through;
+  color: #999;
+}
+.flight_box .flight_slide .pro .pro_desc {
+  position: absolute; 
+  top: 36px; left: 8px;
+  opacity: 0.6;
+}
+
+.footer {
+  position: relative;
+}
+.footer .footer_top {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+.footer .footer_top ul {
+  width: 25%;
+  font-size: 12px;
+}
+.footer .footer_top ul li {
+  height: 24px;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.2s;
+} 
+.footer .footer_top ul li.title {
+  height: 36px;
+  font-weight: bold;
+  opacity: 1;
+}
+.footer .footer_top ul li:hover {
+  opacity: 1;
+}
+
+.footer .footer_mid {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 11px;
+  
+}
+.footer .footer_mid .inner_mid { 
+  width: 50%;
+  padding: 40px 0;
+  margin-left: 50px;
+  display: flex;
+}
+.footer .footer_mid .inner_mid ul {
+  width: 33%;
+}
+.footer .footer_mid .inner_mid li {
+  width: 40%;
+  cursor: pointer;
+}
+
+.footer .footer_mid .inner_mid .left li {
+  height: 24px;
+}
+.footer .footer_mid .inner_mid .center .title {
+  font-size: 12px;
+  opacity: 1;
+  height: 28px;
+}
+.footer .footer_mid .inner_mid .center li {
+  font-size: 9px;
+  opacity: 0.5;
+  height: 24px;
+  transition: all 0.2s;
+}
+.footer .footer_mid .inner_mid .center li:hover {
+  opacity: 1;
+}
+.footer .footer_mid .inner_mid .right .title {
+  font-size: 12px;
+  opacity: 1;
+  height: 28px;
+}
+.footer .footer_mid .inner_mid .right li {
+  font-size: 9px;
+  opacity: 0.5;
+  height: 24px;
+  transition: all 0.2s;
+}
+.footer .footer_mid .inner_mid .right li:hover {
+  opacity: 1;
+}
+
+.footer .footer_bot {
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: -16px;
+  font-size: 11px;
+  position: relative;
+}
+.footer .footer_bot .txt {
+  text-indent: 36px;
+}
+.footer .footer_bot .copy {
+  opacity: 0.5;
+}
+.footer .footer_bot .term01 {
+  display: block;
+  width: 100px; height: 10px;
+  position: absolute;
+  top: 0px; right: 170px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.footer .footer_bot .term01:hover {
+  opacity: 1;
+}
+.footer .footer_bot .term02 {
+  display: block;
+  position: absolute;
+  top: 0px; right: 70px;
+  cursor: pointer;
+}
+hr {margin: 0 auto;}
+
+.bot_txt {
+  width: 94%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.bot_txt li {
+  width: 48%;
+  margin-bottom: 10px;
+  color: #999;
+}
+.bot_txt li:nth-child(1),
+.bot_txt li:nth-child(3) {
+  margin-right: 20px;
+}
+.footer .footer_bot .bot_txt li .info {
+  margin: 0 4px;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.footer .footer_bot .bot_txt li .info:hover {
+  opacity: 1;
+}
