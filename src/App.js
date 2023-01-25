@@ -121,6 +121,51 @@ function App() {
           }>
         </Route>
       </Routes>
+
+      <footer>
+        <div className='footer_top'>
+          <ul>
+            <li className='title'>조던 신발</li>
+            <li>전체 보기</li>
+            <li>에어 조던 1</li>
+            <li>조던 레트로</li>
+            <li>농구 신발</li>
+          </ul>
+          <ul>
+            <li className='title'>조던 의류</li>
+            <li>전체 보기</li>
+            <li>신상품</li>
+            <li>농구 의류</li>
+            <li>탑 & 티셔츠</li>
+          </ul>
+          <ul>
+            <li className='title'>조던 용품</li>
+            <li>전체 보기</li>
+            <li>농구 용품</li>
+            <li>트레이닝 용품</li>
+            <li>가방</li>
+          </ul>
+          <ul>
+            <li className='title'>Featured</li>
+            <li>조던 신상품</li>
+            <li>키즈 조던</li>
+          </ul>
+        </div>
+        <div className='footer_mid'>
+          <ul>
+            <li>새로운 소식</li>
+            <li>멤버가입</li>
+            <li>매장안내</li>
+            <li>나이키 저널</li>
+          </ul>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <div className='footer_bot'>
+
+        </div>
+      </footer>
     </div>
   );
 }
