@@ -1,0 +1,75 @@
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+img {display: block; width: 100%;}
+a {color: black; text-decoration: none;}
+.me-auto {
+  margin: 0 auto;
+}
+.me-auto .nav {
+  margin: 0 10px;
+  color: #999;
+  transition: all 0.3s;
+}
+.me-auto .nav:hover {
+  color: black;
+}
+.flight_title {
+  font-size: 24px;
+  float: left;
+}
+.btn_box {
+  float: right;
+  position: relative;
+}
+.btn_box span {
+  width: 40px; height: 40px;
+  border-radius: 20px;
+  background-color: #ccc;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn_box span:hover {
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+.flight_box {
+  width: 100%;
+  overflow-y: hidden;
+  margin: 40px 0;
+}
+.flight_box .flight_slide {
+  width: 336%; height: 480px;
+  display: flex;
+}
+.flight_box .flight_slide .pro {
+  width: 33%;
+  margin-right: 10px;
+}
+.flight_box .flight_slide .pro a:hover {
+  color: black;
+}
+.flight_box .flight_slide .pro:last-child {
+  margin-right: 0px;
+}
+.flight_box .flight_slide .pro .txt_box {
+  width: 100%; 
+  position: relative;
+}
+.flight_box .flight_slide .pro .txt_box li.title {
+  position: absolute; 
+  top: 0; left: 0;
+}
+.flight_box .flight_slide .pro .txt_box li.price {
+  position: absolute; 
+  top: 0; right: 0;
+}
+.flight_box .flight_slide .pro .pro_desc {
+  position: absolute; 
+  top: 20px; left: 0;
+}
