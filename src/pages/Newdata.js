@@ -400,3 +400,5 @@ const newdata = [
     discount: 0.2,
   },
 ]
+
+export default newdata

@@ -5,6 +5,14 @@ import styled from "styled-components";
 import maindata from './pages/Maindata';
 import flightdata from './pages/Flightdata';
 import { useState } from 'react';
+import Newrelease from './pages/Newrelease';
+import Men from './pages/Men'
+import Women from './pages/Women'
+import Kids from './pages/Kids'
+import Clothing from './pages/Clothing'
+import Snkrs from './pages/Snkrs'
+import Goods from './pages/Goods'
+import Air from './pages/Air'
 
 const Textbox = styled.div`
   widows: 100%;
@@ -36,14 +44,28 @@ function App() {
   const [flights] = useState(flightdata)
   return (
     <div className="App">
+      <div className='gnb_box'>
+        <ul className='gnb'>
+          <li>매장 찾기</li>
+          <li>고객센터</li>
+          <li>가입하기</li>
+          <li>로그인</li>
+        </ul>
+      </div>
+      <div className='header_left'>
+        <div className='btn_search'>
+          <div className='icon'><i class="fa-solid fa-magnifying-glass"></i></div>
+          <span className='search_txt'>검색</span>
+        </div>
+        <div className='heart'><i class="fa-regular fa-heart"></i></div>
+        <div className='shoppingbag'><i class="fa-solid fa-bag-shopping"></i></div>
+      </div>
       <Navbar bg="white" variant="white">
-        <Container>
-          <Navbar.Brand>
-            <img src={process.env.PUBLIC_URL+'/images/logo.png'} alt='' style={{width: '80px'}}/>
-          </Navbar.Brand>
+        <Container className='lnb'>
 
-          <Nav className="me-auto">
-            <Nav.Link onClick={() => {navigate('/NewRelease')}} className='nav'>New Release</Nav.Link>
+          <Nav className="me-auto" style={{width: '75%'}}>
+            <Nav.Link onClick={() => {navigate('/')}} className='logo'><img src={process.env.PUBLIC_URL+'/images/logo.png'} alt='' style={{width: '80px'}} /></Nav.Link>
+            <Nav.Link onClick={() => {navigate('/Newrelease')}} className='nav'>New Release</Nav.Link>
             <Nav.Link onClick={() => {navigate('/Men')}} className='nav'>Men</Nav.Link>
             <Nav.Link onClick={() => {navigate('/Women')}} className='nav'>Women</Nav.Link>
             <Nav.Link onClick={() => {navigate('/Kids')}} className='nav'>Kids</Nav.Link>
@@ -54,7 +76,10 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
-
+      <div className='notice'>
+        반품 및 환불 지연 안내
+        <span className='more'>자세히 보기</span>
+      </div>
       <Routes>
         <Route path='/' element={
           <Container>
@@ -94,6 +119,7 @@ function App() {
               <span className='btn_l'><i class="fa-solid fa-chevron-left"></i></span>
               <span className='btn_r'><i class="fa-solid fa-chevron-right"></i></span>
             </div>
+            
             <section className='flight_box'>
               <div className='flight_slide'>
                 {
@@ -120,6 +146,14 @@ function App() {
           </Container>
           }>
         </Route>
+        <Route path='NewRelease' element={<Newrelease />}></Route>
+        <Route path='Men' element={<Men />}></Route>
+        <Route path='Women' element={<Women />}></Route>
+        <Route path='Kids' element={<Kids />}></Route>
+        <Route path='Clothing' element={<Clothing />}></Route>
+        <Route path='Snkrs' element={<Snkrs />}></Route>
+        <Route path='Goods' element={<Goods />}></Route>
+        <Route path='Air' element={<Air />}></Route>
       </Routes>
 
       <footer className='footer'>
@@ -199,7 +233,7 @@ function App() {
               개인정보처리방침
             </span>
           </p>
-          <hr style={{width: '90%'}}/>
+          <hr style={{width: '68%'}}/>
           <ul className='bot_txt'>
             <li>
               (유)나이키코리아 대표 Kimberlee Lynn Chang Mendes, 킴벌리 린 창 멘데스 | 서울 강남구 테헤란로 152 강남파이낸스센터 30층 | 통신판매업신고번호 2011-서울강남-03461 | 등록번호 220-8809068 
