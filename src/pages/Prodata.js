@@ -10,6 +10,7 @@ const prodata = [
     condition: '',
     type01: 'men',
     type02: 'snkrs',
+    type03: 'retro',
   },
   {
     id: 'pro_02',
@@ -81,7 +82,8 @@ const prodata = [
     discount: 0.35,
     condition: '',
     type01: 'men',
-    type02: 'snks',
+    type02: 'snkrs',
+    type03: 'retro',
   },
   {
     id: 'pro_08',
@@ -190,6 +192,7 @@ const prodata = [
     condition: '',
     type01: 'men',
     type02: 'snkrs',
+    type03: 'retro',
   },
   {
     id: 'pro_17',
@@ -214,6 +217,7 @@ const prodata = [
     condition: '',
     type01: 'men',
     type02: 'snkrs',
+    type03: 'retro',
   },
   {
     id: 'pro_19',
@@ -226,6 +230,7 @@ const prodata = [
     condition: '',
     type01: 'men',
     type02: 'snkrs',
+    type03: 'retro',
   },
   {
     id: 'pro_20',
@@ -274,6 +279,7 @@ const prodata = [
     condition: '',
     type01: 'men',
     type02: 'snkrs',
+    type03: 'retro',
   },
   {
     id: 'pro_24',
@@ -334,6 +340,7 @@ const prodata = [
     condition: '',
     type01: 'men',
     type02: 'snkrs',
+    type03: 'retro',
   },
   {
     id: 'pro_29',
@@ -392,7 +399,7 @@ const prodata = [
     price: 219000,
     discount: 0,
     condition: '',
-    type01: 'men',
+    type01: 'women',
     type02: 'jacket',
   },
   {
@@ -478,6 +485,7 @@ const prodata = [
     condition: '',
     type01: 'women',
     type02: 'snkrs',
+    type03: 'retro',
   },
   {
     id: 'pro_41',
@@ -670,6 +678,7 @@ const prodata = [
     condition: '',
     type01: 'kids',
     type02: 'snkrs',
+    type03: 'retro',
   },
   {
     id: 'pro_57',
@@ -694,6 +703,7 @@ const prodata = [
     condition: '',
     type01: 'men',
     type02: 'snkrs',
+    type03: 'retro',
   },
   {
     id: 'pro_59',
@@ -910,6 +920,7 @@ const prodata = [
     condition: '',
     type01: 'genderless',
     type02: 'snkrs',
+    type03: 'retro',
   },
   {
     id: 'pro_77',
