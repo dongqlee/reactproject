@@ -6,13 +6,13 @@ import maindata from './pages/Maindata';
 import flightdata from './pages/Flightdata';
 import { useState } from 'react';
 import Newrelease from './pages/Newrelease';
-import Men from './pages/Men'
-import Women from './pages/Women'
-import Kids from './pages/Kids'
-import Clothing from './pages/Clothing'
-import Snkrs from './pages/Snkrs'
-import Goods from './pages/Goods'
-import Air from './pages/Air'
+import Men from './pages/Men';
+import Women from './pages/Women';
+import Kids from './pages/Kids';
+import Clothing from './pages/Clothing';
+import Snkrs from './pages/Snkrs';
+import Goods from './pages/Goods';
+import Air from './pages/Air';
 
 const Textbox = styled.div`
   widows: 100%;
@@ -39,9 +39,11 @@ const Button = styled.button`
   }
 `
 function App() {
+
   const navigate = useNavigate()
   const [mains] = useState(maindata)
   const [flights] = useState(flightdata)
+
   return (
     <div className="App">
       <div className='gnb_box'>
@@ -126,7 +128,7 @@ function App() {
                   flights.map((flight, j) => {
                     return(
                       <div className='pro'>
-                        <Link>
+                        <Link to=''>
                           <img src={flight.image} alt='' style={{width: '100%'}}/>
                           <ul className='txt_box'>
                             <li className='title'>{flight.title}</li>
@@ -146,14 +148,15 @@ function App() {
           </Container>
           }>
         </Route>
-        <Route path='NewRelease' element={<Newrelease />}></Route>
-        <Route path='Men' element={<Men />}></Route>
-        <Route path='Women' element={<Women />}></Route>
-        <Route path='Kids' element={<Kids />}></Route>
-        <Route path='Clothing' element={<Clothing />}></Route>
-        <Route path='Snkrs' element={<Snkrs />}></Route>
-        <Route path='Goods' element={<Goods />}></Route>
-        <Route path='Air' element={<Air />}></Route>
+        <Route path='NewRelease/*' element={<Newrelease />}></Route>
+        <Route path='Men/*' element={<Men />}></Route>
+        <Route path='Women/*' element={<Women />}></Route>
+        <Route path='Kids/*' element={<Kids />}></Route>
+        <Route path='Clothing/*' element={<Clothing />}></Route>
+        <Route path='Snkrs/*' element={<Snkrs />}></Route>
+        <Route path='Goods/*' element={<Goods />}></Route>
+        <Route path='Air/*' element={<Air />}></Route>
+
       </Routes>
 
       <footer className='footer'>
