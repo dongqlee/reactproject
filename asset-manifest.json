@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dongqlee/reactproject.git/static/css/main.807e72ea.css",
-    "main.js": "/dongqlee/reactproject.git/static/js/main.b7635aa3.js",
-    "static/js/787.cdfe00ef.chunk.js": "/dongqlee/reactproject.git/static/js/787.cdfe00ef.chunk.js",
-    "index.html": "/dongqlee/reactproject.git/index.html",
-    "main.807e72ea.css.map": "/dongqlee/reactproject.git/static/css/main.807e72ea.css.map",
-    "main.b7635aa3.js.map": "/dongqlee/reactproject.git/static/js/main.b7635aa3.js.map",
-    "787.cdfe00ef.chunk.js.map": "/dongqlee/reactproject.git/static/js/787.cdfe00ef.chunk.js.map"
+    "main.css": "/dongqlee/reactproject.git/index.html/static/css/main.807e72ea.css",
+    "main.js": "/dongqlee/reactproject.git/index.html/static/js/main.a4853223.js",
+    "static/js/787.cdfe00ef.chunk.js": "/dongqlee/reactproject.git/index.html/static/js/787.cdfe00ef.chunk.js",
+    "index.html": "/dongqlee/reactproject.git/index.html/index.html",
+    "main.807e72ea.css.map": "/dongqlee/reactproject.git/index.html/static/css/main.807e72ea.css.map",
+    "main.a4853223.js.map": "/dongqlee/reactproject.git/index.html/static/js/main.a4853223.js.map",
+    "787.cdfe00ef.chunk.js.map": "/dongqlee/reactproject.git/index.html/static/js/787.cdfe00ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.807e72ea.css",
-    "static/js/main.b7635aa3.js"
+    "static/js/main.a4853223.js"
   ]
 }
