@@ -1,0 +1,212 @@
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+img {display: block; width: 100%;}
+a {color: black; text-decoration: none;}
+
+.home {
+  float: left;
+}
+.icon {
+  float: left;
+  font-size: 12px;
+  line-height: 24px;
+  margin: 0 12px;
+}
+.back {
+  cursor: pointer;
+}
+.pro_sheet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.pro_sheet .pro {
+  width: 24%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.pro_sheet .pro :nth-child(4n) {
+  margin: 0px;
+}
+
+.pro_sheet .pro .txt_box {
+  position: relative;
+  margin-top: 4px;
+}
+.pro_sheet .pro .txt_box .condition {
+  color: brown;
+  font-size: 12px;
+}
+.pro_sheet .pro .txt_box .title {
+  font-weight: bold;
+}
+.pro_sheet .pro .txt_box .desc {
+  color: #999;
+  font-size: 12px;
+}
+.pro_sheet .pro .txt_box .color {
+  color: #999;
+  font-size: 12px;
+}
+.pro_sheet .pro .txt_box .price_box {
+  position: relative;
+}
+.pro_sheet .pro .txt_box .price_box .price {
+  font-size: 14px;
+}
+.pro_sheet .pro .txt_box .price_box .origin {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: rgb(116, 116, 116);
+  position: absolute;
+  top: 0px; left: 70px;
+}
+.pro_sheet .pro .txt_box .discount {
+  font-size: 14px;
+  color: rgb(0, 158, 0);
+}
+
+/*------detail_sheet------*/
+.detail_sheet {
+  width: 100%; height: 100vh;
+  position: relative;
+}
+
+.detail_sheet img {
+  position: absolute;
+  top: 0px; left: 0;
+}
+.detail_sheet .info_box {
+  width: 45%; height: 60%;
+  position: absolute;
+  top: 0px; right: 0;
+}
+.detail_sheet .info_box .txt_box {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.detail_sheet .info_box .condition {
+  color: brown;
+}
+.detail_sheet .info_box .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+.detail_sheet .info_box .desc {
+  font-size: 14px;
+  color: #999;
+}
+.detail_sheet .info_box .price_box {
+  position: relative;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.detail_sheet .info_box .origin {
+  position: absolute;
+  top: 0; left: 100px;
+  text-decoration: line-through;
+}
+.detail_sheet .info_box .discount {
+  color: rgb(0, 158, 0);
+  font-weight: bold;
+}
+.detail_sheet .info_box .size_txt {
+  position: absolute;
+  top: 240px; left: 30px;
+}
+.detail_sheet .info_box .size_chk {
+  position: absolute;
+  top: 240px; right: 40px;
+}
+
+.detail_sheet .size_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0; padding: 0;
+  margin-top: 130px;
+}
+.detail_sheet .size_box li{
+  width: 120px; height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  margin-bottom: 20px;cursor: pointer;
+}
+
+.detail_sheet .btn_box {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.detail_sheet .btn_box button {
+  margin: 10px;
+}
+.detail_sheet .btn_box .cart {
+  color: white;
+  background-color: black;
+}
+
+/*-----Login-----*/
+.login_sheet {
+  width: 50%;
+  margin: 100px auto;
+  margin-bottom: 300px;
+}
+.login_sheet .title {
+  font-size: 24px;
+}
+
+.login_sheet .nation {
+  margin-right: 14px;
+}
+.login_sheet .change {
+  color: #999;
+  text-decoration: underline;
+}
+.login_sheet .email {
+  width: 500px; height: 50px;
+  margin-top: 30px;
+  border: 1px solid #999;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.login_sheet .email input {
+  width: 500px; height: 50px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-indent: 8px;
+}
+
+.login_sheet .txt {
+  color: #999;
+}
+.login_sheet .txt span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.login_sheet .btn_more {
+  width: 80px; height: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
