@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.807e72ea.css",
-    "main.js": "/static/js/main.4cb297c8.js",
-    "static/js/787.cdfe00ef.chunk.js": "/static/js/787.cdfe00ef.chunk.js",
-    "index.html": "/index.html",
-    "main.807e72ea.css.map": "/static/css/main.807e72ea.css.map",
-    "main.4cb297c8.js.map": "/static/js/main.4cb297c8.js.map",
-    "787.cdfe00ef.chunk.js.map": "/static/js/787.cdfe00ef.chunk.js.map"
+    "main.css": "/dongqlee/reactproject/index.html/static/css/main.807e72ea.css",
+    "main.js": "/dongqlee/reactproject/index.html/static/js/main.4340e38a.js",
+    "static/js/787.cdfe00ef.chunk.js": "/dongqlee/reactproject/index.html/static/js/787.cdfe00ef.chunk.js",
+    "index.html": "/dongqlee/reactproject/index.html/index.html",
+    "main.807e72ea.css.map": "/dongqlee/reactproject/index.html/static/css/main.807e72ea.css.map",
+    "main.4340e38a.js.map": "/dongqlee/reactproject/index.html/static/js/main.4340e38a.js.map",
+    "787.cdfe00ef.chunk.js.map": "/dongqlee/reactproject/index.html/static/js/787.cdfe00ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.807e72ea.css",
-    "static/js/main.4cb297c8.js"
+    "static/js/main.4340e38a.js"
   ]
 }
